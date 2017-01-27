@@ -151,5 +151,14 @@ cat .gitignore
 *.class		# ignorerer alle .class filer
 build/		# ignorer alle filer i build/ mappen
 
+# Hvordan lage filen først?
+touch .gitignore
+
+# Hvordan lage .gitignore fil i windows?
+1. Lage gitignore.txt
+2. Legg inn regler i text editor
+3. Hold inne SHIFT, høyretrykk på mappen, velg Open Commandline
+4. Endre navn i kommandolinjen, ren gitignore.txt .gitignore
+
 # Hvordan skippe staging area?
 git commit -a -m
